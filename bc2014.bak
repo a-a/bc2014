@@ -1344,10 +1344,15 @@ Connection ~ 8000 4050
 Wire Wire Line
 	8000 4050 8000 4250
 Wire Wire Line
-	8000 4250 8000 4800
+	8000 4250 8000 4450
 Wire Wire Line
 	8000 4800 9350 4800
 Connection ~ 8000 4250
 Wire Wire Line
 	8250 4350 8350 4350
+Wire Wire Line
+	8000 4450 8350 4450
+Connection ~ 8000 4450
+Wire Wire Line
+	8000 4450 8000 4800
 $EndSCHEMATC
