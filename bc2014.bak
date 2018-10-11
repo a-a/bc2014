@@ -1336,17 +1336,10 @@ Connection ~ 8000 4050
 Wire Wire Line
 	8000 4050 8000 4250
 Wire Wire Line
-	8000 4250 8000 4450
-Wire Wire Line
 	8000 4800 9350 4800
 Connection ~ 8000 4250
 Wire Wire Line
 	8250 4350 8350 4350
-Wire Wire Line
-	8000 4450 8350 4450
-Connection ~ 8000 4450
-Wire Wire Line
-	8000 4450 8000 4800
 Text GLabel 10550 5050 0    50   Input ~ 0
 D+
 Text GLabel 10550 5150 0    50   Input ~ 0
@@ -1387,4 +1380,25 @@ Wire Bus Line
 Connection ~ 5600 1250
 Wire Bus Line
 	5600 1250 7800 1250
+$Comp
+L 74xx:74HC04 U?
+U 1 1 5CC1208B
+P 8000 5300
+F 0 "U?" H 8000 5617 50  0000 C CNN
+F 1 "74HC04" H 8000 5526 50  0000 C CNN
+F 2 "" H 8000 5300 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/74HC_HCT04.pdf" H 8000 5300 50  0001 C CNN
+	1    8000 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4250 8000 4800
+Wire Wire Line
+	8350 4450 8350 5300
+Wire Wire Line
+	8350 5300 8300 5300
+Text GLabel 7600 5300 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	7600 5300 7700 5300
 $EndSCHEMATC
