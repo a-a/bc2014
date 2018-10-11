@@ -1243,8 +1243,6 @@ F 3 "~" H 10750 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10400 4850 10600 4850
-Wire Wire Line
 	10750 5850 10750 6650
 Wire Wire Line
 	10750 6650 9000 6650
@@ -1297,10 +1295,6 @@ Wire Wire Line
 	10900 5450 11000 5450
 Wire Wire Line
 	10600 5550 10600 5450
-Wire Wire Line
-	10600 5450 10400 5450
-Wire Wire Line
-	10400 5450 10400 4850
 Wire Wire Line
 	10600 5550 10750 5550
 Connection ~ 10600 5550
@@ -1355,4 +1349,39 @@ Wire Wire Line
 Connection ~ 8000 4450
 Wire Wire Line
 	8000 4450 8000 4800
+Text GLabel 10550 5050 0    50   Input ~ 0
+D+
+Text GLabel 10550 5150 0    50   Input ~ 0
+D-
+Text GLabel 9550 5950 0    50   Input ~ 0
+D+
+Text GLabel 9550 6050 0    50   Input ~ 0
+D-
+Wire Wire Line
+	9550 6050 9700 6050
+Wire Wire Line
+	9550 5950 9700 5950
+Wire Wire Line
+	10550 5050 10600 5050
+Wire Wire Line
+	10550 5150 10600 5150
+Wire Wire Line
+	10600 4850 10350 4850
+Wire Wire Line
+	10350 4850 10350 5450
+Wire Wire Line
+	10350 5450 10600 5450
+Wire Wire Line
+	10600 5250 10600 5300
+Wire Wire Line
+	10600 5300 10650 5300
+Wire Wire Line
+	10650 5300 10650 5400
+Wire Wire Line
+	10650 5400 10800 5400
+Wire Wire Line
+	10800 5400 10800 5450
+Wire Wire Line
+	10800 5450 10900 5450
+Connection ~ 10900 5450
 $EndSCHEMATC
