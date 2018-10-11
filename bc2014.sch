@@ -620,9 +620,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf" H 6700 4900 50
 	1    0    0    -1  
 $EndComp
 Wire Bus Line
-	4100 1250 7800 1250
-Wire Bus Line
-	5600 1350 5600 5300
+	4100 1250 5600 1250
 $Comp
 L Jumper:SolderJumper_3_Bridged12 JP?
 U 1 1 5BD759A7
@@ -1384,4 +1382,9 @@ Wire Wire Line
 Wire Wire Line
 	10800 5450 10900 5450
 Connection ~ 10900 5450
+Wire Bus Line
+	5600 1250 5600 5300
+Connection ~ 5600 1250
+Wire Bus Line
+	5600 1250 7800 1250
 $EndSCHEMATC

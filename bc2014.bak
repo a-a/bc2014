@@ -40,9 +40,9 @@ L 16550-lqfp-48:16550-LQFP-48 U?
 U 1 1 5BBFABB1
 P 9350 3050
 F 0 "U?" H 9350 5018 50  0000 C CNN
-F 1 "UART, 16550-LQFP-48" H 9350 4927 50  0000 C CNN
+F 1 "UART, SC16C550B-LQFP-48" H 9350 4927 50  0000 C CNN
 F 2 "Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm" H 9350 3050 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/pc16550d.pdf" H 9350 4836 50  0000 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/302/SC16C550B-1127791.pdf" H 9350 4836 50  0000 C CNN
 	1    9350 3050
 	1    0    0    -1  
 $EndComp
