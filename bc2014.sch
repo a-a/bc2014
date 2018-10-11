@@ -1401,7 +1401,7 @@ Text GLabel 7600 5300 0    50   Input ~ 0
 RESET
 Wire Wire Line
 	7600 5300 7700 5300
-Text Notes 1650 7200 0    50   ~ 0
+Text Notes 1750 7100 0    50   ~ 0
 system clock 7.3728 / 64\n115200 baud\nusually driving 68B50 in rc2014\ncan probably be upped to 8 if clk2 used by 16c550\n
 Text Notes 1650 5450 0    50   ~ 0
 clk2 for 16c550 uart\n1834200/(115200*16)=1\nso divisor not set in 16c550 conf
