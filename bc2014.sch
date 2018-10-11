@@ -224,10 +224,6 @@ F 3 "" H 9350 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9350 4750 9350 4800
-Text GLabel 10500 4450 2    50   Input ~ 0
-CLK
-Wire Wire Line
-	10350 4450 10500 4450
 Text GLabel 2200 1950 0    50   Input ~ 0
 CLK
 Wire Wire Line
@@ -422,8 +418,6 @@ F 3 "" H 11050 2150 50  0001 C CNN
 	1    11050 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10350 2150 10950 2150
 Wire Wire Line
 	10350 1950 11050 1950
 Wire Wire Line
@@ -1117,7 +1111,6 @@ CLK
 Wire Wire Line
 	8200 3250 8350 3250
 NoConn ~ 8350 3550
-NoConn ~ 10350 4250
 Wire Wire Line
 	10350 2050 11050 2050
 Connection ~ 11050 2050
@@ -1128,31 +1121,14 @@ Wire Wire Line
 Wire Wire Line
 	11050 1850 11050 1950
 Connection ~ 11050 1950
-Wire Wire Line
-	10350 2450 10950 2450
-Wire Wire Line
-	10950 2450 10950 2150
-Connection ~ 10950 2150
-Wire Wire Line
-	10950 2150 11050 2150
-Wire Wire Line
-	10350 2750 10950 2750
-Wire Wire Line
-	10950 2750 10950 2450
-Connection ~ 10950 2450
 NoConn ~ 10350 2550
 NoConn ~ 10350 2650
 NoConn ~ 10350 3650
 NoConn ~ 10350 3750
 NoConn ~ 10350 3850
-Wire Wire Line
-	8350 4450 8350 4800
-Wire Wire Line
-	8350 4800 9350 4800
 Connection ~ 9350 4800
 Wire Wire Line
 	9350 4800 9350 4900
-NoConn ~ 8350 4350
 $Comp
 L Connector:USB_B_Micro J?
 U 1 1 5C203068
@@ -1340,4 +1316,43 @@ Wire Wire Line
 Connection ~ 1600 1650
 Wire Wire Line
 	1600 1650 1950 1650
+Wire Wire Line
+	10350 4250 10350 4450
+Wire Wire Line
+	10350 2150 11050 2150
+NoConn ~ 10350 2450
+NoConn ~ 10350 2750
+Text GLabel 8250 3850 0    50   Input ~ 0
+WR
+Text GLabel 8250 4150 0    50   Input ~ 0
+RD
+Wire Wire Line
+	8250 4150 8350 4150
+Wire Wire Line
+	8250 3850 8350 3850
+Text GLabel 8250 4350 0    50   Input ~ 0
+INT
+Wire Wire Line
+	8350 3950 8000 3950
+Wire Wire Line
+	8000 3950 8000 4050
+Wire Wire Line
+	8000 4250 8350 4250
+Wire Wire Line
+	8350 4050 8000 4050
+Connection ~ 8000 4050
+Wire Wire Line
+	8000 4050 8000 4250
+Wire Wire Line
+	8000 4250 8000 4450
+Wire Wire Line
+	8000 4800 9350 4800
+Connection ~ 8000 4250
+Wire Wire Line
+	8250 4350 8350 4350
+Wire Wire Line
+	8000 4450 8350 4450
+Connection ~ 8000 4450
+Wire Wire Line
+	8000 4450 8000 4800
 $EndSCHEMATC
