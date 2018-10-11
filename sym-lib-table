@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 16550-lqfp-48)(type Legacy)(uri /Users/user/Downloads/16550-lqfp-48.lib)(options "")(descr ""))
+  (lib (name cy62256)(type Legacy)(uri /Users/user/Downloads/cy62256.lib)(options "")(descr ""))
+)
